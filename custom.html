@@ -26,6 +26,10 @@
       #buttons a {
         margin-bottom: 2em;
       }
+
+      .margin-top {
+        margin-top: 2em;
+      }
     </style>
   </head>
   <body>
@@ -52,7 +56,7 @@
               <div class="caption">
                 <h3>Vanilla</h3>
               </div>
-              <img src="./images/grasshopper-sundae.jpg" alt="Vanilla">
+              <img src="./images/grasshopper-sundae.jpg" alt="Vanilla" data-toggle="modal" data-target="#vanilla">
             </div>
           </div>
 
@@ -110,6 +114,38 @@
           </div>
         </div>
         <!-- END SUNDAE ROW -->
+
+        <!-- MODALS -->
+        <div class="modal fade" id="vanilla" tabindex="-1" role="dialog" aria-labelledby="vanilla">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="Flavor">Flavor</h4>
+              </div>
+              <div class="modal-body">
+                <div class="row">
+                  <p>Smooth, creamy vanilla. A blank slate for your sundae creation.</p>
+                </div>
+
+                <div class="row">
+                  <p>pick a size:</p>
+
+                  <div class="btn-group" role="group" aria-label="...">
+                    <button type="button" class="btn btn-default">small</button>
+                    <button type="button" class="btn btn-default">large</button>
+                  </div>
+                </div>
+
+                <a class="btn btn-default margin-top" href="./toppings.html">add</a>
+
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">close</button>
+              </div>
+            </div>
+          </div>
+        </div>
 
     </div>
 

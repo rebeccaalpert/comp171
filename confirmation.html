@@ -26,9 +26,6 @@
       #buttons a {
         margin-bottom: 2em;
       }
-      .margin-top {
-        margin-top: 2em;
-      }
     </style>
   </head>
   <body>
@@ -41,73 +38,20 @@
 
     <div class="container-fluid text-center" id="buttons">
         <div class="row">
-          <h1>choose your sundae</h1>
+          <h1>Thank you for shopping with Scoop 'N Scootery</h1>
+          <h3>your order is in the works</h3>
         </div>
 
-        <!-- SUNDAE ROW -->
         <div class="row">
-          <div class="col-sm-6 col-md-4">
-            <div class="thumbnail">
-              <div class="caption">
-                <h3>Grasshopper Sundae</h3>
-              </div>
-              <img src="./images/grasshopper-sundae.jpg" alt="Grasshopper Sundae" data-toggle="modal" data-target="#grasshopper">
-            </div>
+          <div class="col-sm-6 col-md-6">
+            <a class="btn btn-default" id="view" href="./cart.html">view order</a>
           </div>
 
-            <div class="col-sm-6 col-md-4">
-            <div class="thumbnail">
-              <div class="caption">
-                <h3>Phantomberry Sundae</h3>
-              </div>
-              <img src="./images/phantomberry-sundae.jpg" alt="Phantomberry Sundae">
-            </div>
-          </div>
-
-            <div class="col-sm-6 col-md-4">
-            <div class="thumbnail">
-              <div class="caption">
-                <h3>Strawberry Shortcake Sundae</h3>
-              </div>
-              <img src="./images/strawberry-shortcake-sundae.jpg" alt="Strawberry Shortcake Sundae">
-            </div>
+          <div class="col-sm-6 col-md-6">
+            <a class="btn btn-default" id="continue" href="./page2.html">keep shopping</a>
           </div>
         </div>
-        <!-- END SUNDAE ROW -->
 
-
-        <!-- MODALS -->
-        <div class="modal fade" id="grasshopper" tabindex="-1" role="dialog" aria-labelledby="grasshopper sundae">
-          <div class="modal-dialog" role="document">
-            <div class="modal-content">
-              <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                <h4 class="modal-title" id="name">Grasshopper Sundae</h4>
-              </div>
-              <div class="modal-body">
-                <div class="row">
-                  <img src="./images/grasshopper-sundae.jpg" alt="Grasshopper Sundae" >
-                  <p>Mint chocolate chip ice cream with chopped Oreos, chocolate sprinkles, chocolate chips and homemade whipped cream.</p>
-                </div>
-
-                <div class="row">
-                  <p>pick a size:</p>
-
-                  <div class="btn-group" role="group" aria-label="...">
-                    <button type="button" class="btn btn-default">small</button>
-                    <button type="button" class="btn btn-default">large</button>
-                  </div>
-                </div>
-
-                <a class="btn btn-default margin-top" href="./toppings.html">add</a>
-
-              </div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-default" data-dismiss="modal">close</button>
-              </div>
-            </div>
-          </div>
-        </div>
     </div>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
