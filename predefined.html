@@ -52,7 +52,7 @@
               <div class="caption">
                 <h3>Phantomberry Sundae</h3>
               </div>
-              <img src="./images/phantomberry-sundae.jpg" alt="Phantomberry Sundae">
+              <img src="./images/phantomberry-sundae.jpg" alt="Phantomberry Sundae" data-toggle="modal" data-target="#phantomberry">
             </div>
           </div>
 
@@ -61,7 +61,7 @@
               <div class="caption">
                 <h3>Strawberry Shortcake Sundae</h3>
               </div>
-              <img src="./images/strawberry-shortcake-sundae.jpg" alt="Strawberry Shortcake Sundae">
+              <img src="./images/strawberry-shortcake-sundae.jpg" alt="Strawberry Shortcake Sundae" data-toggle="modal" data-target="#shortcake">
             </div>
           </div>
         </div>
@@ -71,7 +71,7 @@
         <!-- MODALS -->
         <div class="modal fade" id="grasshopper" tabindex="-1" role="dialog" aria-labelledby="grasshopper sundae">
           <div class="modal-dialog" role="document">
-            <div class="modal-content">
+            <div class="modal-content text-center">
               <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
                 <h4 class="modal-title" id="name">Grasshopper Sundae</h4>
@@ -86,21 +86,95 @@
                   <p>pick a size:</p>
 
                   <div class="btn-group" role="group" aria-label="...">
-                    <button type="button" class="btn btn-default">small</button>
-                    <button type="button" class="btn btn-default">large</button>
+                    <button type="button" class="btn btn-default wider">small</button>
+                    <button type="button" class="btn btn-default wider">large</button>
                   </div>
                 </div>
 
-                <a class="btn btn-default margin-top" href="./toppings.html">add</a>
+                <a class="btn btn-default margin-top widest" href="./toppings.html">add</a>
 
               </div>
-              <div class="modal-footer">
+              <!--<div class="modal-footer">
                 <button type="button" class="btn btn-default" data-dismiss="modal">close</button>
-              </div>
+                
+              </div>-->
             </div>
           </div>
         </div>
     </div>
+
+        <!-- MODALS -->
+        <div class="modal fade" id="phantomberry" tabindex="-1" role="dialog" aria-labelledby="phantomberry sundae">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content text-center">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="name">Phantomberry Sundae</h4>
+              </div>
+              <div class="modal-body">
+                <div class="row">
+                  <img src="./images/phantomberry-sundae.jpg" alt="Phantomberry Sundae" >
+                  <p>Vanilla and black raspberry cookie swirl ice cream topped with graham cracker bits, fresh blueberries, white chocolate chips, and homemade whipped cream.</p>
+                </div>
+
+                <div class="row">
+                  <p>pick a size:</p>
+
+                  <div class="btn-group" role="group" aria-label="...">
+                    <button type="button" class="btn btn-default wider">small</button>
+                    <button type="button" class="btn btn-default wider">large</button>
+                  </div>
+                </div>
+
+                <a class="btn btn-default margin-top widest" href="./toppings.html">add</a>
+
+              </div>
+              <!--<div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">close</button>
+                
+              </div>-->
+            </div>
+          </div>
+        </div>
+    </div>
+
+
+        <!-- MODALS -->
+        <div class="modal fade" id="shortcake" tabindex="-1" role="dialog" aria-labelledby="strawberry shortcake sundae">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content text-center">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="name">Strawberry Shortcake Sundae</h4>
+              </div>
+              <div class="modal-body">
+                <div class="row">
+                  <img src="./images/strawberry-shortcake-sundae.jpg" alt="Strawberry Shortcake Sundae" >
+                  <p>Vanilla and strawberry cheesecake ice cream topped with fresh strawberries, waffle cone bits and homemade whipped cream.</p>
+                </div>
+
+                <div class="row">
+                  <p>pick a size:</p>
+
+                  <div class="btn-group" role="group" aria-label="...">
+                    <button type="button" class="btn btn-default wider">small</button>
+                    <button type="button" class="btn btn-default wider">large</button>
+                  </div>
+                </div>
+
+                <a class="btn btn-default margin-top widest" href="./toppings.html">add</a>
+
+              </div>
+              <!--<div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">close</button>
+                
+              </div>-->
+            </div>
+          </div>
+        </div>
+    </div>
+
+
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
