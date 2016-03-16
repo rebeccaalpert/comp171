@@ -1,5 +1,5 @@
 body { 
-	padding-top: 100px;
+	padding-top: 80px;
 }
 
 .margin-top {
@@ -42,7 +42,7 @@ body {
 .checkbox-group {
 	text-align: left;
 	margin: auto;
-    width: 25%;
+    width: 35%;
 }
 
 .table-custom {
@@ -51,6 +51,10 @@ body {
 
 .narrow {
 	width: 10%;
+}
+
+.modal-body {
+	padding: 0.5em 0.5em 0.5em 0.5em;
 }
 /*.btn-blue { 
   color: #FFFFFF; 
