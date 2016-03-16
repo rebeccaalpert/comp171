@@ -32,11 +32,10 @@ body {
 }
 
 #logo {
-	width: 22%;
-	height: 22%;
+	width: 30%;
+	height: 30%;
 	background-color: #000067;
 	padding-top: 1em;
-	padding-bottom: 1em;
 }
 
 .checkbox-group {
@@ -53,7 +52,7 @@ body {
 	width: 10%;
 }
 
-.modal-body {
+.modal-body-custom {
 	padding: 0.5em 0.5em 0.5em 0.5em;
 }
 /*.btn-blue { 
