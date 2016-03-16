@@ -1,0 +1,97 @@
+body { 
+	padding-top: 100px;
+}
+
+.margin-top {
+	margin-top: 2em;
+}
+
+.widest {
+	width: 100%;
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
+
+.wider {
+	padding-top: 1em;
+	padding-bottom: 1em;
+	padding-left: 1em;
+	padding-right: 1em;
+}
+
+.modal-body img {
+	width: 40%;
+	height: 40%;
+	padding-bottom: 1em;
+}
+
+.navbar-custom {
+	background-color: #000067;
+	color: #fff;
+	text-align: center;
+}
+
+#logo {
+	width: 22%;
+	height: 22%;
+	background-color: #000067;
+}
+
+.checkbox-group {
+	text-align: left;
+	margin: auto;
+    width: 25%;
+}
+
+.table-custom {
+	text-align: left;
+}
+
+.narrow {
+	width: 10%;
+}
+/*.btn-blue { 
+  color: #FFFFFF; 
+  background-color: #000067; 
+  border-color: #000067; 
+} 
+ 
+.btn-blue:hover, 
+.btn-blue:focus, 
+.btn-blue:active, 
+.btn-blue.active, 
+.open .dropdown-toggle.btn-blue { 
+  color: #FFFFFF; 
+  background-color: #152A94; 
+  border-color: #000067; 
+} 
+ 
+.btn-blue:active, 
+.btn-blue.active, 
+.open .dropdown-toggle.btn-blue { 
+  background-image: none; 
+} 
+ 
+.btn-blue.disabled, 
+.btn-blue[disabled], 
+fieldset[disabled] .btn-blue, 
+.btn-blue.disabled:hover, 
+.btn-blue[disabled]:hover, 
+fieldset[disabled] .btn-blue:hover, 
+.btn-blue.disabled:focus, 
+.btn-blue[disabled]:focus, 
+fieldset[disabled] .btn-blue:focus, 
+.btn-blue.disabled:active, 
+.btn-blue[disabled]:active, 
+fieldset[disabled] .btn-blue:active, 
+.btn-blue.disabled.active, 
+.btn-blue[disabled].active, 
+fieldset[disabled] .btn-blue.active { 
+  background-color: #000067; 
+  border-color: #000067; 
+} 
+ 
+.btn-blue .badge { 
+  color: #000067; 
+  background-color: #FFFFFF; 
+}*/

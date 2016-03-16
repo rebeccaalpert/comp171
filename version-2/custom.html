@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Scoop 'N Scootery</title>
+
+    <!-- Bootstrap -->
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <link rel="stylesheet" href="./styles.css">
+
+  </head>
+  <body>
+    <nav class="navbar navbar-fixed-top navbar-default navbar-custom">
+      <div class="container">
+        <a class="btn btn-default navbar-btn pull-left" id="profile" aria-label="profile" href="./profile.html"><span class="glyphicon glyphicon-user" aria-hidden="true"></span></a>
+        <a aria-label="home" href="./page2.html"><img src="./images/logo.png" alt="The Scoop N Scootery" id="logo"></a>
+        <a class="btn btn-default navbar-btn pull-right" id="cart" aria-label="cart" href="./cart-empty.html"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></a>
+      </div>
+    </nav>
+
+    <div class="container-fluid text-center">
+        <div class="row">
+          <h1>choose your flavor</h1>
+        </div>
+
+        <div class="row margin-top">
+          <h1 class="subhead">ice cream</h1>
+        </div>
+
+        <!-- SUNDAE ROW -->
+        <div class="row">
+          <div class="col-sm-6 col-md-4">
+            <div class="thumbnail">
+              <div class="caption">
+                <h3>Vanilla</h3>
+              </div>
+              <img src="./images/chlot's-run-vanilla.jpg" alt="Vanilla" data-toggle="modal" data-target="#vanilla">
+            </div>
+          </div>
+
+            <div class="col-sm-6 col-md-4">
+            <div class="thumbnail">
+              <div class="caption">
+                <h3>German Chocolate Cake</h3>
+              </div>
+              <img src="./images/cassia-noelle-chocolate.jpg" alt="Chocolate" data-toggle="modal" data-target="#chocolate">
+            </div>
+          </div>
+
+            <div class="col-sm-6 col-md-4">
+            <div class="thumbnail">
+              <div class="caption">
+                <h3>Cookie Dough</h3>
+              </div>
+              <img src="./images/alicia-griffin-cookie-dough.jpg" alt="Cookie Dough" data-toggle="modal" data-target="#cookiedough">
+            </div>
+          </div>
+        </div>
+        <!-- END SUNDAE ROW -->
+
+        <div class="row margin-top">
+          <h1 class="subhead">frozen yogurt</h1>
+        </div>
+
+        <!-- SUNDAE ROW -->
+        <div class="row">
+          <div class="col-sm-6 col-md-4">
+            <div class="thumbnail">
+              <div class="caption">
+                <h3>French Vanilla</h3>
+              </div>
+              <img src="./images/krissa-corbett-cavouras-french-vanilla.jpg" alt="French Vanilla" data-toggle="modal" data-target="#fvanilla">
+            </div>
+          </div>
+
+            <div class="col-sm-6 col-md-4">
+            <div class="thumbnail">
+              <div class="caption">
+                <h3>Chocolate</h3>
+              </div>
+              <img src="./images/flare-chocolate.jpg" alt="Chocolate" data-toggle="modal" data-target="#chocolate">
+            </div>
+          </div>
+
+            <div class="col-sm-6 col-md-4">
+            <div class="thumbnail">
+              <div class="caption">
+                <h3>Black Raspberry</h3>
+              </div>
+              <img src="./images/chlot's-run-raspberry.jpg" alt="Black Raspberry" data-toggle="modal" data-target="#raspberry">
+            </div>
+          </div>
+        </div>
+        <!-- END SUNDAE ROW -->
+
+        <!-- MODALS -->
+        <div class="modal fade" id="vanilla" tabindex="-1" role="dialog" aria-labelledby="vanilla">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="Flavor">Vanilla</h4>
+              </div>
+              <div class="modal-body">
+                <div class="row">
+                  <img src="./images/chlot's-run-vanilla.jpg" alt="Vanilla">
+                  <p>Smooth, creamy vanilla. A blank slate for your sundae creation.</p>
+                </div>
+
+                <div class="row">
+                  <p>pick a size:</p>
+
+                  <div class="btn-group" role="group" aria-label="...">
+                    <button type="button" class="btn btn-default wider">small</button>
+                    <button type="button" class="btn btn-default wider">large</button>
+                  </div>
+                </div>
+
+                <a class="btn btn-default margin-top widest" href="./toppings.html">add</a>
+
+              </div>
+              <!--<div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">close</button>
+                
+              </div>-->
+            </div>
+          </div>
+        </div>
+
+                <div class="modal fade" id="chocolate" tabindex="-1" role="dialog" aria-labelledby="german chocolate cake">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="Flavor">German Chocolate Cake</h4>
+              </div>
+              <div class="modal-body">
+                <div class="row">
+                  <img src="./images/cassia-noelle-chocolate.jpg" alt="Chocolate">
+                  <p>Rich german chocolate cake-flavored ice cream.</p>
+                </div>
+
+                <div class="row">
+                  <p>pick a size:</p>
+
+                  <div class="btn-group" role="group" aria-label="...">
+                    <button type="button" class="btn btn-default wider">small</button>
+                    <button type="button" class="btn btn-default wider">large</button>
+                  </div>
+                </div>
+
+                <a class="btn btn-default margin-top widest" href="./toppings.html">add</a>
+
+              </div>
+              <!--<div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">close</button>
+                
+              </div>-->
+            </div>
+          </div>
+        </div>
+
+                <div class="modal fade" id="cookiedough" tabindex="-1" role="dialog" aria-labelledby="cookie dough">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="Flavor">Cookie Dough</h4>
+              </div>
+              <div class="modal-body">
+                <div class="row">
+                  <img src="./images/alicia-griffin-cookie-dough.jpg" alt="Cookie Dough">
+                  <p>No need to bake!</p>
+                </div>
+
+                <div class="row">
+                  <p>pick a size:</p>
+
+                  <div class="btn-group" role="group" aria-label="...">
+                    <button type="button" class="btn btn-default wider">small</button>
+                    <button type="button" class="btn btn-default wider">large</button>
+                  </div>
+                </div>
+
+                <a class="btn btn-default margin-top widest" href="./toppings.html">add</a>
+
+              </div>
+              <!--<div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">close</button>
+                
+              </div>-->
+            </div>
+          </div>
+        </div>
+
+
+
+        <div class="modal fade" id="fvanilla" tabindex="-1" role="dialog" aria-labelledby="french vanilla">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="Flavor">French Vanilla</h4>
+              </div>
+              <div class="modal-body">
+                <div class="row">
+                  <img src="./images/krissa-corbett-cavouras-french-vanilla.jpg" alt="French Vanilla">
+                  <p>Smooth, creamy vanilla. A blank slate for your sundae creation.</p>
+                </div>
+
+                <div class="row">
+                  <p>pick a size:</p>
+
+                  <div class="btn-group" role="group" aria-label="...">
+                    <button type="button" class="btn btn-default wider">small</button>
+                    <button type="button" class="btn btn-default wider">large</button>
+                  </div>
+                </div>
+
+                <a class="btn btn-default margin-top widest" href="./toppings.html">add</a>
+
+              </div>
+              <!--<div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">close</button>
+                
+              </div>-->
+            </div>
+          </div>
+        </div>
+
+
+        <div class="modal fade" id="chocolate2" tabindex="-1" role="dialog" aria-labelledby="chocolate">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="Flavor">Chocolate</h4>
+              </div>
+              <div class="modal-body">
+                <div class="row">
+                  <img src="./images/flare-chocolate.jpg" alt="Chocolate">
+                  <p>Satisfy your darkest cravings.</p>
+                </div>
+
+                <div class="row">
+                  <p>pick a size:</p>
+
+                  <div class="btn-group" role="group" aria-label="...">
+                    <button type="button" class="btn btn-default wider">small</button>
+                    <button type="button" class="btn btn-default wider">large</button>
+                  </div>
+                </div>
+
+                <a class="btn btn-default margin-top widest" href="./toppings.html">add</a>
+
+              </div>
+              <!--<div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">close</button>
+                
+              </div>-->
+            </div>
+          </div>
+        </div>
+
+
+
+        <div class="modal fade" id="raspberry" tabindex="-1" role="dialog" aria-labelledby="raspberry">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="Flavor">Black Raspberry</h4>
+              </div>
+              <div class="modal-body">
+                <div class="row">
+                  <img src="./images/chlot's-run-raspberry.jpg" alt="Black Raspberry">
+                  <p>Fruity, smooth, and delicious.</p>
+                </div>
+
+                <div class="row">
+                  <p>pick a size:</p>
+
+                  <div class="btn-group" role="group" aria-label="...">
+                    <button type="button" class="btn btn-default wider">small</button>
+                    <button type="button" class="btn btn-default wider">large</button>
+                  </div>
+                </div>
+
+                <a class="btn btn-default margin-top widest" href="./toppings.html">add</a>
+
+              </div>
+              <!--<div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">close</button>
+                
+              </div>-->
+            </div>
+          </div>
+        </div>
+
+    </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+  </body>
+</html>
