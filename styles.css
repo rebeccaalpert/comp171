@@ -34,8 +34,7 @@ body {
 #logo {
 	width: 30%;
 	height: 30%;
-	background-color: #000067;
-	padding-top: 1em;
+	margin-top: 1em;
 }
 
 .checkbox-group {
