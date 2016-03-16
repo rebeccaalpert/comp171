@@ -29,12 +29,12 @@ body {
 	background-color: #000067;
 	color: #fff;
 	text-align: center;
+	vertical-align: middle;
 }
 
 #logo {
-	width: 30%;
-	height: 30%;
-	margin-top: 1em;
+	width: 40%;
+	height: 40%;
 }
 
 .checkbox-group {
