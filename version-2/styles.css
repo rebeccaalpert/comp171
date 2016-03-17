@@ -1,5 +1,5 @@
 body { 
-	padding-top: 80px;
+	padding-top: 75px;
 }
 
 .margin-top {
@@ -34,7 +34,7 @@ body {
 
 .navbar-btn {
 	margin-top: 0.5em;
-	margin-bottom: 0.5em;
+	margin-bottom: 0em;
 }
 
 #logo {
@@ -43,7 +43,7 @@ body {
 	max-height: 68px;
 	background-color: #000067;
 	margin-top: 0.5em;
-	margin-bottom: 0.5em;
+	margin-bottom: 0em;
 }
 
 .checkbox-group {
