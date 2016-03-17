@@ -32,18 +32,11 @@ body {
 	vertical-align: middle;
 }
 
-.navbar-btn {
-	margin-top: 0.5em;
-	margin-bottom: 0em;
-}
-
 #logo {
 	width: 30%;
 	height: 30%;
 	max-height: 68px;
 	background-color: #000067;
-	margin-top: 0.5em;
-	margin-bottom: 0em;
 }
 
 .checkbox-group {
